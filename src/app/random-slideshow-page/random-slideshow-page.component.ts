@@ -3,7 +3,7 @@ import { PhotoService } from '../photo.service';
 @Component({
   selector: 'app-random-slideshow-page',
   templateUrl: './random-slideshow-page.component.html',
-  styleUrls: ['./random-slideshow-page.component.scss']
+  styleUrls: ['./random-slideshow-page.component.css']
 })
 export class RandomSlideshowPageComponent implements OnInit {
   photoUrls: string[] = [];
