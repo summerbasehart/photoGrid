@@ -11,10 +11,10 @@ export class AppComponent {
   constructor(
     private store: Store<any>,
   ) {
-    store.pipe(onselect('menu'))
-      .subscribe((menuOpen: boolean) => {
-        this.menuOpen = menuOpen;
-      })
+    // store.pipe(onselect('menu'))
+    //   .subscribe((menuOpen: boolean) => {
+    //     this.menuOpen = menuOpen;
+    //   })
   }
   @HostListener('document:click', ['$event'])
   public onClick(event: { target: { className: string | string[]; }; }) {

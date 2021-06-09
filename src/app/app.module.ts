@@ -40,7 +40,7 @@ import { PhotoService } from './photo.service';
     AppRoutingModule,
     FormsModule,
     MatButtonModule,
-    StoreModule.provideStore(reducers),
+    StoreModule.forRoot(reducers),
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
