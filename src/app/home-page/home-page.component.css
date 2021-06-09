@@ -1,0 +1,11 @@
+.tile-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .selected {
+    background-color: green !important;
+}
+.selecting {
+    background-color: yellow !important;
+}
